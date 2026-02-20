@@ -7,6 +7,10 @@
 
 A reference implementation of a Model Context Protocol (MCP) server providing real-time weather data via the Open-Meteo API. This server supports both local execution via standard I/O (stdio) and remote execution via HTTP with SSE transport.
 
+> 📖 **Want the full walkthrough?** This project was built as part of a hands-on tutorial at fencode.dev.
+> Read the step-by-step guide → [Cómo crear tu primer servidor MCP con TypeScript desde cero](https://www.fencode.dev/blog/crear-tu-primer-servidor-mcp-typescript-desde-cero)
+
+
 ## Features
 
 - **Real-time Weather**: Current temperature, wind speed, and humidity conditions.
@@ -94,7 +98,13 @@ docker run -p 3000:3000 mcp-weather-server
 - **Framework**: Express.js
 - **Validation**: Zod
 - **API**: Open-Meteo (Geocoding & Weather)
+- 
+## Resources
 
+- 📖 [Tutorial completo — fencode.dev](https://www.fencode.dev/blog/crear-tu-primer-servidor-mcp-typescript-desde-cero)
+- 📚 [MCP Official Documentation](https://modelcontextprotocol.io)
+- 🌤️ [Open-Meteo API](https://open-meteo.com/)
+  
 ## License
 
 This project is licensed under the MIT License.
